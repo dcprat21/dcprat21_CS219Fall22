@@ -66,9 +66,9 @@ public class SwallowStats {
         }
 
         // Printing the average, maximum, and minimum swallow speed
-        System.out.printf("The average Swallow speed is %.2f\n " + average);
         System.out.println("The minimum value is... " + min);
         System.out.println("The maximum value is... " + max);
+        System.out.printf("The average Swallow speed is %.2f ", average);
     }
 
     // Creating a main function so SwallowStats can get computed, and we can find the average speed, max, and min
