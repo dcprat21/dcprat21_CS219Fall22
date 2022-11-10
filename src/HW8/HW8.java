@@ -1,3 +1,5 @@
+// Desmond Pratt
+// HW#8
 package HW8;
 
 import java.sql.SQLOutput;
@@ -99,7 +101,7 @@ public class HW8 {
 
         System.out.println(count(nums, 2, 0) == 3);
         System.out.println(count(nums, 2, 13) == 0);
-        System.out.println(count(nums, 2, 4) == 3);
+        System.out.println(count(nums, 2, 4) == 2);
 
     } // main
 }
